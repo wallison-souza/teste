@@ -1,0 +1,9 @@
+"pt-BR":
+  hello: "olá Mundo"
+  Contact: "Contatos"
+  contact:
+    name: "Nome"
+    email: "E-mail"
+    kind: "Tipo de Contato"
+    rmk: "obs"
+

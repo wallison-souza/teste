@@ -1,0 +1,60 @@
+<%= form_with(model: contact, local: true, html: {class: "dark-matter"}) do |form| %>
+  <% if contact.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(contact.errors.count, "error") %> prohibited this contact from being saved:</h2>
+
+      <ul>
+      <% contact.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <h1 ><%= t 'Contact' %></h1>
+
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.text_field :email %>
+  </div>
+
+  <%= form.fields_for :address do |address_field| %>
+    <div class="field">
+      <%= address_field.label :street %>
+      <%= address_field.text_field :street %>
+    </div>
+    <div class="field">
+      <%= address_field.label :city %>
+      <%= address_field.text_field :city %>
+    </div>
+    <div class="field">
+      <%= address_field.label :state %>
+      <%= address_field.select :state, options_for_state(@contact.address.state) %>
+    </div>
+  <% end %>
+
+
+  <div class="field">
+    <%= form.label :kind_id %><br/>
+    <%= collection_select(:contact, :kind_id, @kind_options_for_select, :id, :description) %>
+  </div>
+
+  <div class="field">
+    <%= form.label :rmk %>
+    <%= form.text_area :rmk %>
+  </div>
+
+  <div class="field">
+    <%= form.label " " %>
+    <%= form.submit "Enviar", class: "button" %>
+    <%= link_to 'Back', contacts_path, class:"button" %>
+  </div>
+
+
+<% end %>
