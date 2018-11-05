@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b77c8bda-9dc2-4a3d-8f59-6756338e609f" name="Default Changelist" comment="" />
+    <list default="true" id="b77c8bda-9dc2-4a3d-8f59-6756338e609f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/config/locales/pt-BR.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/pt-BR.yml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -81,7 +83,7 @@
           <entry key="rake" value="517" />
           <entry key="rb" value="856" />
           <entry key="scss" value="148" />
-          <entry key="yml" value="294" />
+          <entry key="yml" value="295" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -91,17 +93,17 @@
           <entry key="RHTML" value="1371" />
           <entry key="Ruby" value="1402" />
           <entry key="SCSS" value="148" />
-          <entry key="YAML" value="294" />
+          <entry key="YAML" value="295" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/contacts/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="-146">
               <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
               <folding>
                 <element signature="e#421#432#0#ruby" expanded="true" />
@@ -123,7 +125,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/locales/pt-BR.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -135,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/locales/links.pt-BR.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -180,9 +182,9 @@
         <option value="$PROJECT_DIR$/config/locales/model.pt-BR.yml" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/contacts/_form.html.erb" />
-        <option value="$PROJECT_DIR$/config/locales/pt-BR.yml" />
         <option value="$PROJECT_DIR$/config/locales/links.pt-BR.yml" />
         <option value="$PROJECT_DIR$/app/views/contacts/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/locales/pt-BR.yml" />
       </list>
     </option>
   </component>
@@ -236,47 +238,6 @@
             <path>
               <item name="teste" type="b2602c69:ProjectViewProjectNode" />
               <item name="teste" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="teste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teste" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="teste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teste" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="teste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teste" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="teste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teste" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="teste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teste" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="teste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teste" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="teste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teste" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="locales" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -417,12 +378,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541018819992</updated>
       <workItem from="1541018821657" duration="4691000" />
-      <workItem from="1541080588047" duration="44799000" />
+      <workItem from="1541080588047" duration="45036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49490000" />
+    <option name="totallyTimeSpent" value="49727000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -711,16 +672,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/contacts/show.html.erb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contacts/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding>
-            <element signature="e#421#432#0#ruby" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -728,10 +679,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/locales/pt-BR.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/links.pt-BR.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -746,10 +704,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/locales/pt-BR.yml">
+    <entry file="file://$PROJECT_DIR$/app/views/contacts/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="-146">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="e#421#432#0#ruby" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
