@@ -7,7 +7,7 @@ ruby '2.4.4'
 gem 'rails', '~> 5.2.1'
 #A set of common locale data and translations to internationalize and/or localize your Rails applications.
 gem 'rails-i18n', '~> 5.1', '>= 5.1.2'
-
+gem 'cocoon'
 gem 'i18n'
 gem 'faker'
 # Use sqlite3 as the database for Active Record

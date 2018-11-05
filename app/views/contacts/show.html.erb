@@ -1,22 +1,22 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong><%= t ("contact.name")%>></strong>
+  <strong><%= t ("contact.name")%>:</strong>
   <%= @contact.name %>
 </p>
 
 <p>
-  <strong>Email:</strong>
+  <strong><%= t ("contact.email") %>:</strong>
   <%= @contact.email %>
 </p>
 
 <p>
-  <strong>Kind:</strong>
-  <%= @contact.kind %>
+  <strong><%= t ("contact.tipo") %>:</strong>
+  <%= @contact.kind.description %>
 </p>
 
 <p>
-  <strong>Rmk:</strong>
+  <strong><%= t ("contact.observacao") %>:</strong>
   <%= @contact.rmk %>
 </p>
 
