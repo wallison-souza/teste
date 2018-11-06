@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+ruby version 2.4.4p296
+rails version 5.2.1
