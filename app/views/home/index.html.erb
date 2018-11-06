@@ -1,8 +1,44 @@
-<h1>Bem Vindo</h1>
-<uL>
-  <li><%= link_to "Tipos", kinds_path %></li>
-  <li><%= link_to "Telefones", phones_path %></li>
-  <li><%= link_to "Endereco", addresses_path %></li>
-  <li><%= link_to "Contatoc", contacts_path %></li>
 
-</uL>
+<section class="hero is-success is-fullheight">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head">
+    <header class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroC" class="navbar-menu">
+          <div class="navbar-end">
+
+              <%= link_to "Tipos", kinds_path ,class:"navbar-item"%>
+
+              <%= link_to "Telefones", phones_path ,class:"navbar-item"%>
+
+              <%= link_to "Enderecos", addresses_path ,class:"navbar-item"%>
+
+              <%= link_to "Contatos", contacts_path,class:"navbar-item" %>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body
+  fundo ">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        Bem-Vindo
+      </h1>
+      <h2 class="subtitle">
+        Ao teste
+      </h2>
+    </div>
+  </div>
+
+
+</section>

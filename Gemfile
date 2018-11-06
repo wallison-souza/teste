@@ -10,6 +10,9 @@ gem 'rails-i18n', '~> 5.1', '>= 5.1.2'
 gem 'cocoon'
 gem 'i18n'
 gem 'faker'
+gem 'jquery-rails'
+
+gem 'bulma-rails', '~> 0.7.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
