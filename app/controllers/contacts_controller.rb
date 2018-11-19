@@ -1,28 +1,29 @@
 class ContactsController < ApplicationController
   before_action :set_contact, only: [:show, :edit, :update, :destroy]
+  before_action :set_option_select, only: [:new, :edit, :update, :create]
 
   # GET /contacts
   # GET /contacts.json
   def index
-    @contacts = Contact.all
+    respond_to do |format|
+      format.html { @contacts = Contact.all.order(:name).page(params[:page]).per(15) }
+      format.js
+    end
   end
 
   # GET /contacts/1
   # GET /contacts/1.json
   def show
   end
-
   # GET /contacts/new
   def new
     @contact = Contact.new
     @contact.build_address
-    option_select
-    option_select_address
   end
 
   # GET /contacts/1/edit
   def edit
-    option_select
+
   end
 
   # POST /contacts
@@ -71,12 +72,10 @@ class ContactsController < ApplicationController
       @contact = Contact.find(params[:id])
     end
 
-    def option_select
+    def set_option_select
       @kind_options_for_select = Kind.all
     end
-    def option_select_address
-      @Address_option_for_select = Address.all
-    end
+
     # Never trust parameters from the scary internet, only allow the white list through.
     def contact_params
       params.require(:contact).permit(:name, :email, :kind_id, :rmk, address_attributes: [:street, :city, :state],
